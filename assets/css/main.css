@@ -1,9 +1,10 @@
 header {
-  grid-area: miHeader;
-  background-color: #daecef;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  grid-area: miHeader;
+  background-color: #daecef; }
   header a img {
     width: 50px;
     margin-left: 50px; }
@@ -15,13 +16,13 @@ header {
       margin: 0 15px; }
       header nav ul li a:link,
       header nav ul li a:visited {
-        font-size: 22px;
         color: white;
-        background-color: #278dfba9;
+        background: #007bff;
+        border-radius: 16px;
+        font-size: 22px;
         border-bottom: solid 2px;
         text-decoration: none;
-        padding: 3px 6px;
-        border-radius: 16px; }
+        padding: 3px 6px; }
 
 footer {
   grid-area: footer;

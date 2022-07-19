@@ -16,7 +16,7 @@ article#logos {
   background-image: url("https://securecdn.pymnts.com/wp-content/uploads/2022/03/Crypto-Exchanges-Russia.jpg");
   background-size: cover;
   display: flex;
-  align-items:center;
+  align-items: center;
   justify-content: center;
 }
 
@@ -37,7 +37,7 @@ article#logos img {
 
 .boton {
   color: white;
-  background-color: #4598f0;
+  background-color: #007bff;
   text-decoration: none;
   padding: 5px 20px;
   border-radius: 16px;
@@ -117,7 +117,7 @@ article#logos img {
 }
 
 .color-fondo {
-  background: linear-gradient(#f8f9fa, #007bff);
+  background: linear-gradient(#007bff, #f8f9fa);
 }
 
 #formulario {
@@ -149,22 +149,22 @@ article#logos img {
   font-size: 18px;
 }
 
-.form-register a {
-  color: white;
+.form-register p a {
+  color: #007bff;
   text-decoration: none;
 }
 
 .form-register a:hover {
-  color: white;
+  color: #007bff;
   text-decoration: underline;
 }
 
 .form-register .botons {
   width: 100%;
-  background: white;
+  background: #007bff;
   border: none;
   padding: 12px;
-  color: #007bff;
+  color: white;
   margin: 16px 0;
   font-size: 16px;
   border-radius: 16px;
